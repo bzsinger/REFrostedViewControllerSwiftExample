@@ -1,0 +1,894 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08B7ADB4995C988200DF7B3023DFE16E /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B1FA28613BA87F24DB16DDDA38C0BD /* RECommonFunctions.m */; };
+		0A4675DD729A06F0477C21FA2CAAE9FA /* RECommonFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = B48812E144FF3F911740FC4CA15639CA /* RECommonFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1642FB01D0E7F7D7DE2800451715B56C /* REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE503CABA92C9132DF887FA90F500597 /* REFrostedViewController.m */; };
+		28F112AC732E60ACF87143685126C542 /* UIViewController+REFrostedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A0036E0150C1C450CA8781BB925F726 /* UIViewController+REFrostedViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AF4E9030280F04A730B6EE194EE03A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E448886F539D1901165DB8CA98B53190 /* Foundation.framework */; };
+		3562795E9603BD37EA11DACAE8F4A243 /* Pods-REFrostedViewControllerSwiftExampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 963832E47F4843763B8013A74231B6C9 /* Pods-REFrostedViewControllerSwiftExampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F0E769B193236CC609B25126C70CD82 /* REFrostedViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1635F5C8DA5783AA45E2DBFC48326765 /* REFrostedViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64FE30FE09AFAE4FC6F56660B5B2B442 /* Pods-REFrostedViewControllerSwiftExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 314FEF9BC42144CB7AABF86450AB1291 /* Pods-REFrostedViewControllerSwiftExample-dummy.m */; };
+		6A0F12D435D1D9832F22D97AA5B69E5B /* Pods-REFrostedViewControllerSwiftExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23AE6A84F34D50C22DC697788A9BAEF5 /* Pods-REFrostedViewControllerSwiftExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CA5AF499D56FCF39E6C4C0012C2AB40 /* REFrostedContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5C306B3F2FF102F16080F8AE0F37DD /* REFrostedContainerViewController.m */; };
+		76F9B2EBDC941670CB96B51D32B6A95F /* UIViewController+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA14B0C28CDC208A5A6517A68D3E041 /* UIViewController+REFrostedViewController.m */; };
+		83D738307E505CCF0DC5CC501E77475F /* UIView+REFrostedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D4520115BF55D690E5ADB3CE3CB2F1C /* UIView+REFrostedViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86B321AFEFA0B3D2D8341BAC5175A1B6 /* UIImage+REFrostedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 79EAAD0AE382AEB4FB3EFCD3FED2C533 /* UIImage+REFrostedViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91524A204FF486B4D34B4883B867FFD4 /* Pods-REFrostedViewControllerSwiftExampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A08D45D922AC7C3A71133F0961BBADD /* Pods-REFrostedViewControllerSwiftExampleUITests-dummy.m */; };
+		A374058A5913A6368502C886077080EA /* Pods-REFrostedViewControllerSwiftExampleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7531A78D7831C5E3808827F1C9A747C8 /* Pods-REFrostedViewControllerSwiftExampleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4CEB974421B4DC3032CBCA7E3590FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E448886F539D1901165DB8CA98B53190 /* Foundation.framework */; };
+		ADC3C51A42291A02F686EF7FE3BF0A82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E448886F539D1901165DB8CA98B53190 /* Foundation.framework */; };
+		B4AC15C56E530358FFCA0FB0CBC4746E /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACED8C86EFAA0133ACD675960567676 /* Accelerate.framework */; };
+		B4D8958EAC6A19AE5CE44B9E82D9B050 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E448886F539D1901165DB8CA98B53190 /* Foundation.framework */; };
+		BEA4F350CC62370EDF3F8925190EA1C2 /* UIImage+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B45F163D20BCF459C65E147FE49149 /* UIImage+REFrostedViewController.m */; };
+		CBA6E74779A6AD41A255B49906305AE5 /* REFrostedViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4AEC678304561F98C83A6960201B311 /* REFrostedViewController-dummy.m */; };
+		CF8B586770C444DA4A130ABC4C7ED2DE /* Pods-REFrostedViewControllerSwiftExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDB0A254D044CF6A2F2567CB6297A96 /* Pods-REFrostedViewControllerSwiftExampleTests-dummy.m */; };
+		D0DAC0D26E746805AC654230D841A401 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C0F502D72C788CE7E292AB05EC80EAE /* QuartzCore.framework */; };
+		EB6537AF01D457DE2EB865ADA2C25822 /* UIView+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2621F4D0B9D1990AC9509E9E65E6C9EF /* UIView+REFrostedViewController.m */; };
+		ED1DCE5E869234F26E5356807C22F02B /* REFrostedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D94DA5A778E12848FF747F818A2DB96 /* REFrostedViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD934D4270EA7C5EAD2C7A47DD1BE96B /* REFrostedContainerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FE270B055E3980B15C6D1FE67AEE7F9 /* REFrostedContainerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33F70CEC670F491FB805C3224C676CF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 259296F597439052A2CB4B61897581F8;
+			remoteInfo = REFrostedViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05B1FA28613BA87F24DB16DDDA38C0BD /* RECommonFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RECommonFunctions.m; path = REFrostedViewController/RECommonFunctions.m; sourceTree = "<group>"; };
+		05F6BC0F2C1EEA0B06F94A96C71B29F0 /* Pods-REFrostedViewControllerSwiftExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-REFrostedViewControllerSwiftExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		0C53C83CAD320BF000B5515FB7A055AC /* Pods_REFrostedViewControllerSwiftExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_REFrostedViewControllerSwiftExample.framework; path = "Pods-REFrostedViewControllerSwiftExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D4520115BF55D690E5ADB3CE3CB2F1C /* UIView+REFrostedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+REFrostedViewController.h"; path = "REFrostedViewController/UIView+REFrostedViewController.h"; sourceTree = "<group>"; };
+		0D94DA5A778E12848FF747F818A2DB96 /* REFrostedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = REFrostedViewController.h; path = REFrostedViewController/REFrostedViewController.h; sourceTree = "<group>"; };
+		133DE9DBF16F1D370E4367093FB4B61A /* Pods-REFrostedViewControllerSwiftExampleUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-REFrostedViewControllerSwiftExampleUITests-frameworks.sh"; sourceTree = "<group>"; };
+		1635F5C8DA5783AA45E2DBFC48326765 /* REFrostedViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "REFrostedViewController-umbrella.h"; sourceTree = "<group>"; };
+		17B45F163D20BCF459C65E147FE49149 /* UIImage+REFrostedViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+REFrostedViewController.m"; path = "REFrostedViewController/UIImage+REFrostedViewController.m"; sourceTree = "<group>"; };
+		202FBCB5E0E4B4CF9FF3F77DF1CEE9A1 /* Pods-REFrostedViewControllerSwiftExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-REFrostedViewControllerSwiftExample-frameworks.sh"; sourceTree = "<group>"; };
+		235623D8FA1BF1296EC2ED7B4DB6C854 /* Pods-REFrostedViewControllerSwiftExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-REFrostedViewControllerSwiftExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		23AE6A84F34D50C22DC697788A9BAEF5 /* Pods-REFrostedViewControllerSwiftExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-REFrostedViewControllerSwiftExample-umbrella.h"; sourceTree = "<group>"; };
+		2621F4D0B9D1990AC9509E9E65E6C9EF /* UIView+REFrostedViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+REFrostedViewController.m"; path = "REFrostedViewController/UIView+REFrostedViewController.m"; sourceTree = "<group>"; };
+		314FEF9BC42144CB7AABF86450AB1291 /* Pods-REFrostedViewControllerSwiftExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-REFrostedViewControllerSwiftExample-dummy.m"; sourceTree = "<group>"; };
+		32BF7C4C9CB04196C2CDAB9AA7F23578 /* Pods-REFrostedViewControllerSwiftExampleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-REFrostedViewControllerSwiftExampleTests-resources.sh"; sourceTree = "<group>"; };
+		38D7ACD0AA59278860CFBBD150B34CBE /* Pods-REFrostedViewControllerSwiftExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-REFrostedViewControllerSwiftExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C0F502D72C788CE7E292AB05EC80EAE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		3F0CC0E3993A52A629254CF1BE9F245F /* Pods-REFrostedViewControllerSwiftExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-REFrostedViewControllerSwiftExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		3F28462FCA5FFD2D64237852D6696B9B /* Pods-REFrostedViewControllerSwiftExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-REFrostedViewControllerSwiftExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4B282C683AAAD9507EC6999F89E7848C /* Pods-REFrostedViewControllerSwiftExampleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-REFrostedViewControllerSwiftExampleTests-frameworks.sh"; sourceTree = "<group>"; };
+		4FA14B0C28CDC208A5A6517A68D3E041 /* UIViewController+REFrostedViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+REFrostedViewController.m"; path = "REFrostedViewController/UIViewController+REFrostedViewController.m"; sourceTree = "<group>"; };
+		5F7052A641BC7C94550A5F845BDF495C /* Pods-REFrostedViewControllerSwiftExampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-REFrostedViewControllerSwiftExampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6A08D45D922AC7C3A71133F0961BBADD /* Pods-REFrostedViewControllerSwiftExampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-REFrostedViewControllerSwiftExampleUITests-dummy.m"; sourceTree = "<group>"; };
+		6C4B50A3BC808BE6CEDA28BFCA8D06A9 /* Pods-REFrostedViewControllerSwiftExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-REFrostedViewControllerSwiftExample.modulemap"; sourceTree = "<group>"; };
+		6D9C2604753481239D9F75FCE9835140 /* Pods-REFrostedViewControllerSwiftExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-REFrostedViewControllerSwiftExample-resources.sh"; sourceTree = "<group>"; };
+		6FE270B055E3980B15C6D1FE67AEE7F9 /* REFrostedContainerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = REFrostedContainerViewController.h; path = REFrostedViewController/REFrostedContainerViewController.h; sourceTree = "<group>"; };
+		750276E432B5DF64D57BDDB261C11665 /* Pods-REFrostedViewControllerSwiftExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-REFrostedViewControllerSwiftExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7531A78D7831C5E3808827F1C9A747C8 /* Pods-REFrostedViewControllerSwiftExampleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-REFrostedViewControllerSwiftExampleUITests-umbrella.h"; sourceTree = "<group>"; };
+		7800DCB594E34E260921065BBEF3CA0E /* Pods-REFrostedViewControllerSwiftExampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-REFrostedViewControllerSwiftExampleTests.modulemap"; sourceTree = "<group>"; };
+		788E93FC41B805830815836E77D55F51 /* Pods-REFrostedViewControllerSwiftExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-REFrostedViewControllerSwiftExample.release.xcconfig"; sourceTree = "<group>"; };
+		79EAAD0AE382AEB4FB3EFCD3FED2C533 /* UIImage+REFrostedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+REFrostedViewController.h"; path = "REFrostedViewController/UIImage+REFrostedViewController.h"; sourceTree = "<group>"; };
+		8A0036E0150C1C450CA8781BB925F726 /* UIViewController+REFrostedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+REFrostedViewController.h"; path = "REFrostedViewController/UIViewController+REFrostedViewController.h"; sourceTree = "<group>"; };
+		8FDB0A254D044CF6A2F2567CB6297A96 /* Pods-REFrostedViewControllerSwiftExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-REFrostedViewControllerSwiftExampleTests-dummy.m"; sourceTree = "<group>"; };
+		901D8658171E2C8729C70688141DC013 /* REFrostedViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = REFrostedViewController.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		963832E47F4843763B8013A74231B6C9 /* Pods-REFrostedViewControllerSwiftExampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-REFrostedViewControllerSwiftExampleTests-umbrella.h"; sourceTree = "<group>"; };
+		9B36DC4016DE0DB915A68CFB29969E71 /* Pods-REFrostedViewControllerSwiftExampleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-REFrostedViewControllerSwiftExampleUITests.modulemap"; sourceTree = "<group>"; };
+		A80D6439EE83DF52D43E38D4A8D6320C /* Pods-REFrostedViewControllerSwiftExampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-REFrostedViewControllerSwiftExampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A891E32C9E229B91EB71462DC0159439 /* Pods-REFrostedViewControllerSwiftExampleUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-REFrostedViewControllerSwiftExampleUITests-resources.sh"; sourceTree = "<group>"; };
+		AE503CABA92C9132DF887FA90F500597 /* REFrostedViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = REFrostedViewController.m; path = REFrostedViewController/REFrostedViewController.m; sourceTree = "<group>"; };
+		AE5C306B3F2FF102F16080F8AE0F37DD /* REFrostedContainerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = REFrostedContainerViewController.m; path = REFrostedViewController/REFrostedContainerViewController.m; sourceTree = "<group>"; };
+		B31FCCA441BF49BAC6DA0605736B49D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B48812E144FF3F911740FC4CA15639CA /* RECommonFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RECommonFunctions.h; path = REFrostedViewController/RECommonFunctions.h; sourceTree = "<group>"; };
+		B7F36C7F1CA4CDDC7CCFA5ED9EEB0C00 /* Pods_REFrostedViewControllerSwiftExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_REFrostedViewControllerSwiftExampleTests.framework; path = "Pods-REFrostedViewControllerSwiftExampleTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD85A0549569DDB8849A98E3AD23D9A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE6D640217A8FAAE5BDDC2287EF03D0B /* Pods-REFrostedViewControllerSwiftExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-REFrostedViewControllerSwiftExample.debug.xcconfig"; sourceTree = "<group>"; };
+		BFD520ED54C804258A04F3A8F29201CF /* Pods-REFrostedViewControllerSwiftExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-REFrostedViewControllerSwiftExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C5EFE8A8381EEA9ED619540242752BCE /* REFrostedViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = REFrostedViewController.framework; path = REFrostedViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C91EDF98E4402EFE51736DEFDFE428AD /* Pods-REFrostedViewControllerSwiftExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-REFrostedViewControllerSwiftExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CA4962518A021DAFCA84E8E526769EE3 /* REFrostedViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = REFrostedViewController.modulemap; sourceTree = "<group>"; };
+		D2D89789DBC999C21F25D623CE9FDF56 /* Pods_REFrostedViewControllerSwiftExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_REFrostedViewControllerSwiftExampleUITests.framework; path = "Pods-REFrostedViewControllerSwiftExampleUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E448886F539D1901165DB8CA98B53190 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E4AEC678304561F98C83A6960201B311 /* REFrostedViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "REFrostedViewController-dummy.m"; sourceTree = "<group>"; };
+		EB32AE38B1EE6904E6CECBF29443A5F2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1022A3B5853D6572751F7ACB3AC8A35 /* REFrostedViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "REFrostedViewController-prefix.pch"; sourceTree = "<group>"; };
+		F529CE660A2E86ABF3D61A4499938AB1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACED8C86EFAA0133ACD675960567676 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04D27AAD8E53F62424F877122F6CEA45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4AC15C56E530358FFCA0FB0CBC4746E /* Accelerate.framework in Frameworks */,
+				ADC3C51A42291A02F686EF7FE3BF0A82 /* Foundation.framework in Frameworks */,
+				D0DAC0D26E746805AC654230D841A401 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F202B883C15794539406E26192866AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4CEB974421B4DC3032CBCA7E3590FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6CFCF97E5B6975FD5DDCAB10C4F849B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4D8958EAC6A19AE5CE44B9E82D9B050 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE0B829D6AC6DE8C918C6EF971BCB8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AF4E9030280F04A730B6EE194EE03A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B791E22FCC149ECB36D3E7E719B7E33 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17FBAB483786CCCC6148D80B87629D1F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				183FAFC55E524241F6B0EFF6218AF3A3 /* Pods-REFrostedViewControllerSwiftExample */,
+				D83FA1C1AFB0FA6ACEBEBA9C2AE10DB0 /* Pods-REFrostedViewControllerSwiftExampleTests */,
+				F1E1A59424949F6685157C309B4C50A3 /* Pods-REFrostedViewControllerSwiftExampleUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		183FAFC55E524241F6B0EFF6218AF3A3 /* Pods-REFrostedViewControllerSwiftExample */ = {
+			isa = PBXGroup;
+			children = (
+				BAD85A0549569DDB8849A98E3AD23D9A /* Info.plist */,
+				6C4B50A3BC808BE6CEDA28BFCA8D06A9 /* Pods-REFrostedViewControllerSwiftExample.modulemap */,
+				750276E432B5DF64D57BDDB261C11665 /* Pods-REFrostedViewControllerSwiftExample-acknowledgements.markdown */,
+				3F0CC0E3993A52A629254CF1BE9F245F /* Pods-REFrostedViewControllerSwiftExample-acknowledgements.plist */,
+				314FEF9BC42144CB7AABF86450AB1291 /* Pods-REFrostedViewControllerSwiftExample-dummy.m */,
+				202FBCB5E0E4B4CF9FF3F77DF1CEE9A1 /* Pods-REFrostedViewControllerSwiftExample-frameworks.sh */,
+				6D9C2604753481239D9F75FCE9835140 /* Pods-REFrostedViewControllerSwiftExample-resources.sh */,
+				23AE6A84F34D50C22DC697788A9BAEF5 /* Pods-REFrostedViewControllerSwiftExample-umbrella.h */,
+				BE6D640217A8FAAE5BDDC2287EF03D0B /* Pods-REFrostedViewControllerSwiftExample.debug.xcconfig */,
+				788E93FC41B805830815836E77D55F51 /* Pods-REFrostedViewControllerSwiftExample.release.xcconfig */,
+			);
+			name = "Pods-REFrostedViewControllerSwiftExample";
+			path = "Target Support Files/Pods-REFrostedViewControllerSwiftExample";
+			sourceTree = "<group>";
+		};
+		1AABA110A59B3BFB2C1156CE64A9515F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C53C83CAD320BF000B5515FB7A055AC /* Pods_REFrostedViewControllerSwiftExample.framework */,
+				B7F36C7F1CA4CDDC7CCFA5ED9EEB0C00 /* Pods_REFrostedViewControllerSwiftExampleTests.framework */,
+				D2D89789DBC999C21F25D623CE9FDF56 /* Pods_REFrostedViewControllerSwiftExampleUITests.framework */,
+				C5EFE8A8381EEA9ED619540242752BCE /* REFrostedViewController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B791E22FCC149ECB36D3E7E719B7E33 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FACED8C86EFAA0133ACD675960567676 /* Accelerate.framework */,
+				E448886F539D1901165DB8CA98B53190 /* Foundation.framework */,
+				3C0F502D72C788CE7E292AB05EC80EAE /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		75B4035D7F6A8F84D59501866E40BAE9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B31FCCA441BF49BAC6DA0605736B49D0 /* Info.plist */,
+				CA4962518A021DAFCA84E8E526769EE3 /* REFrostedViewController.modulemap */,
+				901D8658171E2C8729C70688141DC013 /* REFrostedViewController.xcconfig */,
+				E4AEC678304561F98C83A6960201B311 /* REFrostedViewController-dummy.m */,
+				F1022A3B5853D6572751F7ACB3AC8A35 /* REFrostedViewController-prefix.pch */,
+				1635F5C8DA5783AA45E2DBFC48326765 /* REFrostedViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/REFrostedViewController";
+			sourceTree = "<group>";
+		};
+		7C8EBDAD4DA254B3160900E60759609E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCCECA975D03C53A48ACFED95C3A4D0D /* REFrostedViewController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				7C8EBDAD4DA254B3160900E60759609E /* Pods */,
+				1AABA110A59B3BFB2C1156CE64A9515F /* Products */,
+				17FBAB483786CCCC6148D80B87629D1F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D83FA1C1AFB0FA6ACEBEBA9C2AE10DB0 /* Pods-REFrostedViewControllerSwiftExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				F529CE660A2E86ABF3D61A4499938AB1 /* Info.plist */,
+				7800DCB594E34E260921065BBEF3CA0E /* Pods-REFrostedViewControllerSwiftExampleTests.modulemap */,
+				3F28462FCA5FFD2D64237852D6696B9B /* Pods-REFrostedViewControllerSwiftExampleTests-acknowledgements.markdown */,
+				C91EDF98E4402EFE51736DEFDFE428AD /* Pods-REFrostedViewControllerSwiftExampleTests-acknowledgements.plist */,
+				8FDB0A254D044CF6A2F2567CB6297A96 /* Pods-REFrostedViewControllerSwiftExampleTests-dummy.m */,
+				4B282C683AAAD9507EC6999F89E7848C /* Pods-REFrostedViewControllerSwiftExampleTests-frameworks.sh */,
+				32BF7C4C9CB04196C2CDAB9AA7F23578 /* Pods-REFrostedViewControllerSwiftExampleTests-resources.sh */,
+				963832E47F4843763B8013A74231B6C9 /* Pods-REFrostedViewControllerSwiftExampleTests-umbrella.h */,
+				38D7ACD0AA59278860CFBBD150B34CBE /* Pods-REFrostedViewControllerSwiftExampleTests.debug.xcconfig */,
+				05F6BC0F2C1EEA0B06F94A96C71B29F0 /* Pods-REFrostedViewControllerSwiftExampleTests.release.xcconfig */,
+			);
+			name = "Pods-REFrostedViewControllerSwiftExampleTests";
+			path = "Target Support Files/Pods-REFrostedViewControllerSwiftExampleTests";
+			sourceTree = "<group>";
+		};
+		F1E1A59424949F6685157C309B4C50A3 /* Pods-REFrostedViewControllerSwiftExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB32AE38B1EE6904E6CECBF29443A5F2 /* Info.plist */,
+				9B36DC4016DE0DB915A68CFB29969E71 /* Pods-REFrostedViewControllerSwiftExampleUITests.modulemap */,
+				A80D6439EE83DF52D43E38D4A8D6320C /* Pods-REFrostedViewControllerSwiftExampleUITests-acknowledgements.markdown */,
+				5F7052A641BC7C94550A5F845BDF495C /* Pods-REFrostedViewControllerSwiftExampleUITests-acknowledgements.plist */,
+				6A08D45D922AC7C3A71133F0961BBADD /* Pods-REFrostedViewControllerSwiftExampleUITests-dummy.m */,
+				133DE9DBF16F1D370E4367093FB4B61A /* Pods-REFrostedViewControllerSwiftExampleUITests-frameworks.sh */,
+				A891E32C9E229B91EB71462DC0159439 /* Pods-REFrostedViewControllerSwiftExampleUITests-resources.sh */,
+				7531A78D7831C5E3808827F1C9A747C8 /* Pods-REFrostedViewControllerSwiftExampleUITests-umbrella.h */,
+				235623D8FA1BF1296EC2ED7B4DB6C854 /* Pods-REFrostedViewControllerSwiftExampleUITests.debug.xcconfig */,
+				BFD520ED54C804258A04F3A8F29201CF /* Pods-REFrostedViewControllerSwiftExampleUITests.release.xcconfig */,
+			);
+			name = "Pods-REFrostedViewControllerSwiftExampleUITests";
+			path = "Target Support Files/Pods-REFrostedViewControllerSwiftExampleUITests";
+			sourceTree = "<group>";
+		};
+		FCCECA975D03C53A48ACFED95C3A4D0D /* REFrostedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B48812E144FF3F911740FC4CA15639CA /* RECommonFunctions.h */,
+				05B1FA28613BA87F24DB16DDDA38C0BD /* RECommonFunctions.m */,
+				6FE270B055E3980B15C6D1FE67AEE7F9 /* REFrostedContainerViewController.h */,
+				AE5C306B3F2FF102F16080F8AE0F37DD /* REFrostedContainerViewController.m */,
+				0D94DA5A778E12848FF747F818A2DB96 /* REFrostedViewController.h */,
+				AE503CABA92C9132DF887FA90F500597 /* REFrostedViewController.m */,
+				79EAAD0AE382AEB4FB3EFCD3FED2C533 /* UIImage+REFrostedViewController.h */,
+				17B45F163D20BCF459C65E147FE49149 /* UIImage+REFrostedViewController.m */,
+				0D4520115BF55D690E5ADB3CE3CB2F1C /* UIView+REFrostedViewController.h */,
+				2621F4D0B9D1990AC9509E9E65E6C9EF /* UIView+REFrostedViewController.m */,
+				8A0036E0150C1C450CA8781BB925F726 /* UIViewController+REFrostedViewController.h */,
+				4FA14B0C28CDC208A5A6517A68D3E041 /* UIViewController+REFrostedViewController.m */,
+				75B4035D7F6A8F84D59501866E40BAE9 /* Support Files */,
+			);
+			name = REFrostedViewController;
+			path = REFrostedViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2D3C0D8FD50887685FD41F03E635A839 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3562795E9603BD37EA11DACAE8F4A243 /* Pods-REFrostedViewControllerSwiftExampleTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		522FE92563AA9983FB97350ADE212E71 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4675DD729A06F0477C21FA2CAAE9FA /* RECommonFunctions.h in Headers */,
+				FD934D4270EA7C5EAD2C7A47DD1BE96B /* REFrostedContainerViewController.h in Headers */,
+				4F0E769B193236CC609B25126C70CD82 /* REFrostedViewController-umbrella.h in Headers */,
+				ED1DCE5E869234F26E5356807C22F02B /* REFrostedViewController.h in Headers */,
+				86B321AFEFA0B3D2D8341BAC5175A1B6 /* UIImage+REFrostedViewController.h in Headers */,
+				83D738307E505CCF0DC5CC501E77475F /* UIView+REFrostedViewController.h in Headers */,
+				28F112AC732E60ACF87143685126C542 /* UIViewController+REFrostedViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C37A0B739427860A1E26B8D51210311 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0F12D435D1D9832F22D97AA5B69E5B /* Pods-REFrostedViewControllerSwiftExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0064890DCA7691E0545B25F80A4EBF7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A374058A5913A6368502C886077080EA /* Pods-REFrostedViewControllerSwiftExampleUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		259296F597439052A2CB4B61897581F8 /* REFrostedViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 662D098234D79D3AE1EC5F7A7D0C951E /* Build configuration list for PBXNativeTarget "REFrostedViewController" */;
+			buildPhases = (
+				75E086C67B502F0C3322CBAD6844BE60 /* Sources */,
+				04D27AAD8E53F62424F877122F6CEA45 /* Frameworks */,
+				522FE92563AA9983FB97350ADE212E71 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = REFrostedViewController;
+			productName = REFrostedViewController;
+			productReference = C5EFE8A8381EEA9ED619540242752BCE /* REFrostedViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		68BE0AF9C93FEF803E3E608252EC2FFD /* Pods-REFrostedViewControllerSwiftExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EADD69B600241106648AD797E3183095 /* Build configuration list for PBXNativeTarget "Pods-REFrostedViewControllerSwiftExampleUITests" */;
+			buildPhases = (
+				C7E2EE2CE0EC3DCF727AC9EED08D4E99 /* Sources */,
+				7F202B883C15794539406E26192866AA /* Frameworks */,
+				D0064890DCA7691E0545B25F80A4EBF7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-REFrostedViewControllerSwiftExampleUITests";
+			productName = "Pods-REFrostedViewControllerSwiftExampleUITests";
+			productReference = D2D89789DBC999C21F25D623CE9FDF56 /* Pods_REFrostedViewControllerSwiftExampleUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E5D8D947420875FC4B84783626E479D3 /* Pods-REFrostedViewControllerSwiftExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0298B48BDD21CFFB219AEDD350036E46 /* Build configuration list for PBXNativeTarget "Pods-REFrostedViewControllerSwiftExample" */;
+			buildPhases = (
+				47AE86DE4E6688A914C6257119C7FD0A /* Sources */,
+				CFE0B829D6AC6DE8C918C6EF971BCB8D /* Frameworks */,
+				8C37A0B739427860A1E26B8D51210311 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FBB7CE18CF23D8A56AC232074439D9F /* PBXTargetDependency */,
+			);
+			name = "Pods-REFrostedViewControllerSwiftExample";
+			productName = "Pods-REFrostedViewControllerSwiftExample";
+			productReference = 0C53C83CAD320BF000B5515FB7A055AC /* Pods_REFrostedViewControllerSwiftExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB79FCF9659B5022F7A4F0FB77B97A61 /* Pods-REFrostedViewControllerSwiftExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01C3C3ECCC9DA694D8D7902B24C05CD9 /* Build configuration list for PBXNativeTarget "Pods-REFrostedViewControllerSwiftExampleTests" */;
+			buildPhases = (
+				AB1E0643057A6E3807CDB8A3EF8418D3 /* Sources */,
+				C6CFCF97E5B6975FD5DDCAB10C4F849B /* Frameworks */,
+				2D3C0D8FD50887685FD41F03E635A839 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-REFrostedViewControllerSwiftExampleTests";
+			productName = "Pods-REFrostedViewControllerSwiftExampleTests";
+			productReference = B7F36C7F1CA4CDDC7CCFA5ED9EEB0C00 /* Pods_REFrostedViewControllerSwiftExampleTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1AABA110A59B3BFB2C1156CE64A9515F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5D8D947420875FC4B84783626E479D3 /* Pods-REFrostedViewControllerSwiftExample */,
+				FB79FCF9659B5022F7A4F0FB77B97A61 /* Pods-REFrostedViewControllerSwiftExampleTests */,
+				68BE0AF9C93FEF803E3E608252EC2FFD /* Pods-REFrostedViewControllerSwiftExampleUITests */,
+				259296F597439052A2CB4B61897581F8 /* REFrostedViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47AE86DE4E6688A914C6257119C7FD0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64FE30FE09AFAE4FC6F56660B5B2B442 /* Pods-REFrostedViewControllerSwiftExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E086C67B502F0C3322CBAD6844BE60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B7ADB4995C988200DF7B3023DFE16E /* RECommonFunctions.m in Sources */,
+				6CA5AF499D56FCF39E6C4C0012C2AB40 /* REFrostedContainerViewController.m in Sources */,
+				CBA6E74779A6AD41A255B49906305AE5 /* REFrostedViewController-dummy.m in Sources */,
+				1642FB01D0E7F7D7DE2800451715B56C /* REFrostedViewController.m in Sources */,
+				BEA4F350CC62370EDF3F8925190EA1C2 /* UIImage+REFrostedViewController.m in Sources */,
+				EB6537AF01D457DE2EB865ADA2C25822 /* UIView+REFrostedViewController.m in Sources */,
+				76F9B2EBDC941670CB96B51D32B6A95F /* UIViewController+REFrostedViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1E0643057A6E3807CDB8A3EF8418D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8B586770C444DA4A130ABC4C7ED2DE /* Pods-REFrostedViewControllerSwiftExampleTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E2EE2CE0EC3DCF727AC9EED08D4E99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91524A204FF486B4D34B4883B867FFD4 /* Pods-REFrostedViewControllerSwiftExampleUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FBB7CE18CF23D8A56AC232074439D9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = REFrostedViewController;
+			target = 259296F597439052A2CB4B61897581F8 /* REFrostedViewController */;
+			targetProxy = 33F70CEC670F491FB805C3224C676CF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18ED1A1C291C8F60FAFBDFC58B4188CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05F6BC0F2C1EEA0B06F94A96C71B29F0 /* Pods-REFrostedViewControllerSwiftExampleTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-REFrostedViewControllerSwiftExampleTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-REFrostedViewControllerSwiftExampleTests/Pods-REFrostedViewControllerSwiftExampleTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_REFrostedViewControllerSwiftExampleTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		274311203B345417A5DDFCE0DDF2C392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE6D640217A8FAAE5BDDC2287EF03D0B /* Pods-REFrostedViewControllerSwiftExample.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-REFrostedViewControllerSwiftExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-REFrostedViewControllerSwiftExample/Pods-REFrostedViewControllerSwiftExample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_REFrostedViewControllerSwiftExample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5EEA8EB04F44D278501DBA8BAC7B7A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 235623D8FA1BF1296EC2ED7B4DB6C854 /* Pods-REFrostedViewControllerSwiftExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-REFrostedViewControllerSwiftExampleUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-REFrostedViewControllerSwiftExampleUITests/Pods-REFrostedViewControllerSwiftExampleUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_REFrostedViewControllerSwiftExampleUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68AD80955078B8275AEBC50E03B0D35B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38D7ACD0AA59278860CFBBD150B34CBE /* Pods-REFrostedViewControllerSwiftExampleTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-REFrostedViewControllerSwiftExampleTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-REFrostedViewControllerSwiftExampleTests/Pods-REFrostedViewControllerSwiftExampleTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_REFrostedViewControllerSwiftExampleTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6FF4D30FE7A2538443BA97F481DC0AAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFD520ED54C804258A04F3A8F29201CF /* Pods-REFrostedViewControllerSwiftExampleUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-REFrostedViewControllerSwiftExampleUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-REFrostedViewControllerSwiftExampleUITests/Pods-REFrostedViewControllerSwiftExampleUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_REFrostedViewControllerSwiftExampleUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B5BEF9FB84E4C2CEBE4F887E9D7E80B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 901D8658171E2C8729C70688141DC013 /* REFrostedViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/REFrostedViewController/REFrostedViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/REFrostedViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/REFrostedViewController/REFrostedViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = REFrostedViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA7B56BE8E4999358D9487337EF0620B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 901D8658171E2C8729C70688141DC013 /* REFrostedViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/REFrostedViewController/REFrostedViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/REFrostedViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/REFrostedViewController/REFrostedViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = REFrostedViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE136BB0CEC1A2EBBF0A461E4F26D232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 788E93FC41B805830815836E77D55F51 /* Pods-REFrostedViewControllerSwiftExample.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-REFrostedViewControllerSwiftExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-REFrostedViewControllerSwiftExample/Pods-REFrostedViewControllerSwiftExample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_REFrostedViewControllerSwiftExample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01C3C3ECCC9DA694D8D7902B24C05CD9 /* Build configuration list for PBXNativeTarget "Pods-REFrostedViewControllerSwiftExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68AD80955078B8275AEBC50E03B0D35B /* Debug */,
+				18ED1A1C291C8F60FAFBDFC58B4188CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0298B48BDD21CFFB219AEDD350036E46 /* Build configuration list for PBXNativeTarget "Pods-REFrostedViewControllerSwiftExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274311203B345417A5DDFCE0DDF2C392 /* Debug */,
+				DE136BB0CEC1A2EBBF0A461E4F26D232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		662D098234D79D3AE1EC5F7A7D0C951E /* Build configuration list for PBXNativeTarget "REFrostedViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA7B56BE8E4999358D9487337EF0620B /* Debug */,
+				B5BEF9FB84E4C2CEBE4F887E9D7E80B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EADD69B600241106648AD797E3183095 /* Build configuration list for PBXNativeTarget "Pods-REFrostedViewControllerSwiftExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EEA8EB04F44D278501DBA8BAC7B7A01 /* Debug */,
+				6FF4D30FE7A2538443BA97F481DC0AAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_REFrostedViewControllerSwiftExample {
+  umbrella header "Pods-REFrostedViewControllerSwiftExample-umbrella.h"
+
+  export *
+  module * { export * }
+}
